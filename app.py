@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 
 
-app = FastAPI()
+app = FastAPI(title="API de Gestão Escoler", version="1.0")
 
 
 @app.get("/")
-async def index():
+async def root():
     return {"message": "Olá mundo"}

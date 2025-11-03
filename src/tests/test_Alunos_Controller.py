@@ -12,3 +12,10 @@ def test_criar_aluno():
     assert aluno_test.nome == "test"
     assert aluno_test.matricula == "000-123456"
     assert aluno_test.status == 1
+
+
+def test_lista_alunos():
+    pass
+
+def test_busca_aluno_id():
+    pass
