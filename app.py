@@ -6,4 +6,4 @@ app = FastAPI(title="API de Gestão Escoler", version="1.0")
 
 @app.get("/")
 async def root():
-    return {"message": "Olá mundo"}
+    return {"message": "Olá mundo"} 
